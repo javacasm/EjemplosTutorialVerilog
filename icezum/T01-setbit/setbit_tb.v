@@ -8,7 +8,7 @@
 `define DUMPSTR(x) `"x.vcd`"
 `timescale 100 ns / 10 ns
 
-module main_tb();
+module setbit_tb();
 
 //-- Simulation time: 1us (10 * 100ns)
 parameter DURATION = 10;
@@ -18,21 +18,29 @@ reg clk = 0;
 always #0.5 clk = ~clk;
 
 //-- Led port
-wire l0;
+wire A;
 
 //-- Instantiation of the unit to test
-top UUT (
-           .LED0(l0)
-         );
+
+setbit SB1(
+  .A (A)
+  );
 
 
 initial begin
 
   //-- File were to store the simulation results
   $dumpfile(`DUMPSTR(`VCD_OUTPUT));
-  $dumpvars(0, main_tb);
+  $dumpvars(0, setbit_tb);
 
-   #(DURATION) $display("End of simulation");
+
+
+
+
+   #(DURATION)  if (A != 1)
+                  $display("Error!!!");
+                else
+                  $display("End of simulation");
   $finish;
 end
 
