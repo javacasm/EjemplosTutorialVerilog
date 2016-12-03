@@ -109,3 +109,5 @@ set_io --warn-no-port CTS 4
 set_io --warn-no-port RTS 7
 set_io --warn-no-port TX  8
 set_io --warn-no-port RX  9
+
+set_io A 95
