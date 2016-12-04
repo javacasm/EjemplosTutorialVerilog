@@ -120,8 +120,6 @@ El proceso dura aproximadamente **2 segundos**. Los mensajes que aparecen son:
 
 El **led D1** de la ICEZum **se encenderá**:
 
-TODO: cambiar foto
-
 <img src="https://github.com/javacasm/EjemplosTutorialVerilog/blob/master/icezum/T01-setbit/images/Icezum_T01.png?raw=true" width="400" align="center">
 
 **Nota:** Puede que los otros LED se enciendan parcialmente; esto es normal y debido a que no les hemos asignado ninguna señal (internamente están conectados "al aire").
