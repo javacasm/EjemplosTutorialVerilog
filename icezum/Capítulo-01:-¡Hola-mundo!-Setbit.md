@@ -32,7 +32,7 @@ Para sintetizar este circuito en la FPGA, primero lo tenemos que describir usand
 
 Verilog es un lenguaje que sirve para describir hardware... pero ¡Cuidado! **¡NO ES UN LENGUAJE DE PROGRAMACIÓN!** ¡Es un lenguaje de descripción! Nos permite describir las conexiones y los elementos de un sistema digital.
 
-El código verilog que implementa este circuito "hola mundo" se encuentra en el fichero [setbit.v](https://github.com/Obijuan/open-fpga-verilog-tutorial/blob/master/tutorial/ICESTICK/T01-setbit/setbit.v). Tiene esta pinta:
+El código verilog que implementa este circuito "hola mundo" se encuentra en el fichero [setbit.v](./T01-setbit/setbit.v). Tiene esta pinta:
 
 ```verilog
 //-- Fichero setbit.v
