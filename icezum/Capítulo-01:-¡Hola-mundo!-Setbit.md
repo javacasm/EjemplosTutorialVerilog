@@ -1,19 +1,19 @@
-<img src="https://github.com/Obijuan/open-fpga-verilog-tutorial/raw/master/tutorial/ICESTICK/T01-setbit/images/T01-setbit-iCEstick.png" width="400" align="center">
+<img src="https://github.com/javacasm/EjemplosTutorialVerilog/blob/master/icezum/T01-setbit/images/Icezum_T01.png?raw=true" width="400" align="center">
 
-[Ejemplos de este capítulo en github](https://github.com/Obijuan/open-fpga-verilog-tutorial/tree/master/tutorial/ICESTICK/T01-setbit)
+[Ejemplos de este capítulo en github](https://github.com/javacasm/EjemplosTutorialVerilog/tree/master/icezum/T01-setbit)
 
 ## Antes de empezar
 
 **No olvides clonar los tutoriales** en tu ordenador, para tener acceso a todos los programas de ejemplo:
 
 ```
-https://github.com/Obijuan/open-fpga-verilog-tutorial.git
+https://github.com/javacasm/EjemplosTutorialVerilog.git
 ```
 
 **Entra en el directorio de trabajo** del tutorial 1:
 
 ```
-cd open-fpga-verilog-tutorial/tutorial/ICESTICK/T01-setbit/
+cd icezum/T01-setbit/
 ```
 
 ¡Estás listo para hacer el tutorial!
@@ -122,7 +122,7 @@ El **led D1** de la ICEZum **se encenderá**:
 
 TODO: cambiar foto
 
-<img src="https://github.com/Obijuan/open-fpga-verilog-tutorial/raw/master/tutorial/ICESTICK/T01-setbit/images/T01-setbit-iCEstick.png" width="400" align="center">
+<img src="https://github.com/javacasm/EjemplosTutorialVerilog/blob/master/icezum/T01-setbit/images/Icezum_T01.png?raw=true" width="400" align="center">
 
 **Nota:** Puede que los otros LED se enciendan parcialmente; esto es normal y debido a que no les hemos asignado ninguna señal (internamente están conectados "al aire").
 
